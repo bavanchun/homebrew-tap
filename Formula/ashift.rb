@@ -1,25 +1,25 @@
 class Ashift < Formula
   desc "Command-line interface and Model Context Protocol (MCP) server for AriadShift (ashift)"
   homepage "https://github.com/bavanchun/AriadShift"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bavanchun/AriadShift/releases/download/v0.3.0/ariad-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "2d658d3d5d4d30aab9c39746ca0fc45f85010eb8cf9ebdde5b8c775217ff17df"
+      url "https://github.com/bavanchun/AriadShift/releases/download/v0.4.0/ariad-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "187130e9436862bae5f8034b21f32c088e8030b617db05ab09bd25ca0e6e57eb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bavanchun/AriadShift/releases/download/v0.3.0/ariad-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "fb789a98b931608e4eb73c72dcf6091ab33b43d54a8ed604de332b6796f9c6f7"
+      url "https://github.com/bavanchun/AriadShift/releases/download/v0.4.0/ariad-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "234bdcf72bd751849b4ed61d2c5c58f0eeb6eed6798718f64393e4374ca4b7ca"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bavanchun/AriadShift/releases/download/v0.3.0/ariad-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "28a616caf5c2079a3fe7dbe4cbac6c7484c041028de56c4a5389917b98746b6c"
+      url "https://github.com/bavanchun/AriadShift/releases/download/v0.4.0/ariad-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "6d63947b6bb36f729a3a049d42b05d0b523585b6b8d28bf36997c92a8f327e05"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bavanchun/AriadShift/releases/download/v0.3.0/ariad-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "68037d3c1ccf254ea5f928b5eebfe3e0919425b6f25c789c3a052c38c620c158"
+      url "https://github.com/bavanchun/AriadShift/releases/download/v0.4.0/ariad-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "c94cb70f9d1cef81f02cf37379ecdd8ea5ffdd1043890084fbf9c33b3d8dd060"
     end
   end
   license "Apache-2.0"
